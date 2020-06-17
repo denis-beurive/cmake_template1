@@ -6,13 +6,13 @@ This Cmake template illustrates the following use case:
 
 * Your project depends on an external library (made of a set of header
   files and an archive) installed in a non-standard location
-  (for example: `/home/dev/projects/cmake_template1`).
+  (for example: `/home/dev/lib/pcre2`).
 * You want the current date of compilation to be included
   into the application's binary.
 
 ## CMakeLists.txt
 
-### Configuring the path to the external library
+### Configuring the path to the external library components
 
 In this case you need to:
 * tell the compiler where to search for header files.
