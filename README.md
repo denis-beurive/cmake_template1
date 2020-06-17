@@ -4,7 +4,7 @@
 
 This Cmake template illustrates the following use case:
 
-* Your project depends on an external library (make of a set of header
+* Your project depends on an external library (made of a set of header
   files and an archive) installed in a non-standard location
   (for example: `/home/dev/projects/cmake_template1`).
 * You want the current date of compilation to be included
